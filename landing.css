@@ -827,7 +827,8 @@ section.developers {
 
     section article {
         /* Full width */
-        width: calc(90% - 1rem);
+        /* flex: 1; */
+        min-width: calc(90% - 1rem);
     }
 
     footer>* {
